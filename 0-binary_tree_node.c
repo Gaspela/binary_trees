@@ -1,11 +1,11 @@
 #include "binary_trees.h"
-
 /** 
  * binary_tree_node - Create a binary tree node.
  * @parent: Pointer the node principal of the node create.
  * @value: value the new node.
  * Return: Node or NULL
 */
+
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
     binary_tree_t *node;
@@ -21,5 +21,5 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
     node->parent = parent;
 
     return (node);
-    
+
 }
